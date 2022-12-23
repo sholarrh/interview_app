@@ -41,7 +41,6 @@ class _BottomNavState extends State<BottomNav> {
         child: NavigationBar(
           height: height * 0.1,
           backgroundColor: Colors.white,
-
           selectedIndex: index,
           onDestinationSelected: (index) => setState(() {
             this.index = index;
