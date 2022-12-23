@@ -76,7 +76,9 @@ class _MainScreenState extends State<MainScreen> {
                 SizedBox(
                   height: height * 0.027,
                 ),
-                Stack(children: [
+                Stack(
+                  clipBehavior: Clip.none,
+                    children: [
                   Container(
                     width: double.infinity,
                     height: height * 0.099,
@@ -114,11 +116,11 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                   Positioned(
                       left: width * 0.0242,
-                      top: height * 0.0141,
+                      top: height * 0.012,
                       child: Image.asset('assets/images/image 10.png')),
                 ]),
                 SizedBox(
-                  height: height * 0.033,
+                  height: height * 0.0596,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,

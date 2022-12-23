@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Interview',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
         fontFamily: 'Outfit',
       ),
       home: const BottomNav(),
