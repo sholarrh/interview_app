@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'main_screen.dart';
+import 'bottom_navigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Interview',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        fontFamily: 'Outfit',
       ),
-      home: const MainScreen(),
+      home: const BottomNav(),
     );
   }
 }
