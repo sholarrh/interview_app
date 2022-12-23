@@ -1,3 +1,6 @@
+// This is a custom widget that was used to develop the container that says
+// topup wallet and send money.
+
 import 'package:flutter/material.dart';
 
 class TopUpContainer extends StatelessWidget {

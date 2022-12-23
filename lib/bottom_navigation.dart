@@ -1,6 +1,10 @@
+// This class is responsible for the bottom navigation bar
+
 import 'package:flutter/material.dart';
 
 import 'main_screen.dart';
+
+
 
 class BottomNav extends StatefulWidget {
   const BottomNav({Key? key}) : super(key: key);
@@ -17,6 +21,8 @@ class _BottomNavState extends State<BottomNav> {
     });
   }
 
+  // These are the screens that the bottom navigation bar navigate to.
+  // I just created simple text widgets for the other 4 navigation bar items
   final screens = const [
     MainScreen(),
     Center(
@@ -44,6 +50,7 @@ class _BottomNavState extends State<BottomNav> {
       ),
     ),
   ];
+
   @override
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;

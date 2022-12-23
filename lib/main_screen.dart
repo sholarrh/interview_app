@@ -1,7 +1,10 @@
+//This class is the only screen in the figma design.
+
 import 'package:flutter/material.dart';
 import 'package:interview_app/widgets/create_new_card_container.dart';
 import 'package:interview_app/widgets/topup_container.dart';
 import 'package:interview_app/widgets/wallet_container.dart';
+
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);

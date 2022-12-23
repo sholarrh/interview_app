@@ -1,5 +1,5 @@
 
-
+// This is the second container that says 'create new card'.
 
 import 'package:flutter/material.dart';
 

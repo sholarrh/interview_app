@@ -1,4 +1,4 @@
-
+// This is the first container that shows he wallet balance
 
 
 import 'package:flutter/material.dart';
